@@ -138,8 +138,8 @@ footer {
   .image img {
     display: flex;
     align-items: center;
-    width: 500px;
-    height: 500px;
+    width:480px;
+    height: 480px;
   }
 
 }
