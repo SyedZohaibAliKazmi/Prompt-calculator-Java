@@ -80,3 +80,24 @@ footer{
     background-color: rgb(27, 27, 27);
     padding: 0px 40px;
 }
+.foot-element{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 30px;
+}
+.foot-text{
+    display: flex;
+    font-family: serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+
+}
+.foot-icon i {
+  font-size: 25px;
+  color: #CE4500;
+  margin: 10px;
+
+}
