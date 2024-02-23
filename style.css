@@ -31,3 +31,52 @@
     text-decoration: none;
     color: #CE4500;
 }
+
+/* hero section elements  */
+
+.hero{
+    /* display: flex;
+    justify-content: center; */
+    height: 600px;
+    background-color: rgb(0, 0, 0);
+    padding: 0px 40px;
+}
+.hero-element{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 24px;
+
+}
+
+.text h1{
+    display: flex;
+    align-items: flex-start;
+    /* align-items: center; */
+    font-family: serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+}
+.text h2{
+    display: flex;
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    margin-top: 20px;
+    font-family: serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #CE4500;
+}
+.image img{
+    display: flex;
+    align-items: flex-end;
+    width: 500px;
+    height: 500px;
+}
+footer{
+    height: 80px;
+    background-color: rgb(27, 27, 27);
+    padding: 0px 40px;
+}
